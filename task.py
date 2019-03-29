@@ -30,11 +30,6 @@
 #Good luck.
 
 class ScoolGrades:
-
-    #defining static variables
-	
-    
-    #Defining the constructor
     
     def __init__(self, students_names, students_grades, students_attendance):
         self.students_names = students_names
