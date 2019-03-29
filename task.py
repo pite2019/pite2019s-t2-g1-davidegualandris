@@ -28,3 +28,48 @@
 #
 #Delete these comments before commit!
 #Good luck.
+
+class ScoolGrades:
+
+    #defining static variables
+	
+    
+    #Defining the constructor
+    
+    def __init__(self, students_names, students_grades, students_attendance):
+        self.students_names = students_names
+        self.students_grades = students_grades
+        self.students_attendance = students_attendance
+
+    def get_average_score(self):
+        sum = 0
+        count = 0
+        for grades in self.students_grades:
+            for grade in grades:
+                count += 1
+                sum += grade
+        return sum/count
+
+    def get_students(self):
+        return self.students_names
+
+    def get_total_attendance(self):
+        count = 0
+        for attendance in self.students_attendance:
+            count += attendance
+        return count
+
+    def get_student_average_score(self, student):
+        sum = 0
+        count = 0
+        for grade in self.students_grades[self.students_names.index(student)]:
+            count += 1
+            sum += grade
+        return sum/count
+
+if __name__ == '__main__':
+    scool1 = ScoolGrades(["a green", "b red", "c white"], [[3,4,5], [1,4,8], [5,8,9]], [5, 8, 9])
+    print(scool1.get_average_score())
+    print(scool1.get_students())
+    print(scool1.get_total_attendance())
+    print(scool1.get_student_average_score("a green"))
