@@ -1,0 +1,14 @@
+{"students":
+	[{"id": 0, "name": "Anna", "surname": "Bid"},
+	{"id": 1, "name": "Lucas", "surname": "Mozart"},
+	{"id": 2, "name": "Marco", "surname": "Rossi"}, {"id": 3, "name": "Jhon", "surname": "Obama"},
+	{"id": 4, "name": "Donald", "surname": "Trump"}, {"id": 5261, "name": "Dum", "surname": "Green"}, {"id": 4214, "name": "Barack", "surname": "Obama"},
+	{"id": 543, "name": "Hillary", "surname": "Clinton"}, {"id": 45678, "name": "Jhon", "surname": "Kenedy"}, {"id": 848, "name": "Brad", "surname": "Pitt"},
+	{"id": 4322, "name": "George", "surname": "Clooney"}, {"id": 157842, "name": "Jennifer", "surname": "Aniston"}],
+	
+"classes":
+
+[{"id": 0, "students": [{"student": 1, "attendances": 2, "grades": [3,6,7]}]},
+{"id": 1, "students": [{"student": 1, "attendances": 10, "grades": [3,6,7]},{"student": 0, "attendances": 3, "grades": [10]},
+{"student": 543, "attendances": 6, "grades": [3,6,7,8,9,18]}]},
+{"id": 2, "students": [{"student": 1, "attendances": 0, "grades": []}]}]}
